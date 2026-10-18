@@ -1,0 +1,737 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tools by url2.at - Apps &amp; Products</title>
+<meta name="description" content="Discover web apps and utilities built on url2.at: LeetCode notes, URL shortener, vocabulary learning, Cursor usage tracking, and more. Try each one right on the page.">
+<meta name="keywords" content="url2.at, tools, LeetCode notes, URL shortener, vocabulary app, Cursor usage, developer tools, web apps">
+<meta name="author" content="url2.at">
+<meta name="theme-color" content="#FBF3DF">
+<link rel="canonical" href="https://tools.url2.at/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="tools.url2.at">
+<meta property="og:title" content="Tools by url2.at - Apps &amp; products">
+<meta property="og:description" content="Browse every app and service we ship: interview prep notes, link shortening, words &amp; definitions, Cursor usage, and public APIs.">
+<meta property="og:url" content="https://tools.url2.at/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Tools by url2.at">
+<meta name="twitter:description" content="One directory for all url2.at apps and services.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpolygon points='50,1 61.5,22.3 84.6,15.4 77.7,38.5 99,50 77.7,61.5 84.6,84.6 61.5,77.7 50,99 38.5,77.7 15.4,84.6 22.3,61.5 1,50 22.3,38.5 15.4,15.4 38.5,22.3' fill='%23FFD23F' stroke='%23111' stroke-width='5' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&amp;family=DM+Mono:wght@400;500&amp;family=DM+Sans:opsz,wght@9..40,400..800&amp;display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>
+  /* Apply a saved theme before first paint. */
+  try {
+    var savedTheme = localStorage.getItem("tools-theme");
+    if (savedTheme === "light" || savedTheme === "dark") document.documentElement.setAttribute("data-theme", savedTheme);
+  } catch (e) {}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Tools by url2.at",
+  "description": "Directory of web applications and services hosted on the url2.at ecosystem.",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "item": { "@type": "SoftwareApplication", "name": "Word of the Day", "url": "https://words.url2.at/", "applicationCategory": "EducationalApplication" } },
+    { "@type": "ListItem", "position": 2, "item": { "@type": "SoftwareApplication", "name": "URL Shortener", "url": "https://url2.at/", "applicationCategory": "UtilitiesApplication" } },
+    { "@type": "ListItem", "position": 3, "item": { "@type": "SoftwareApplication", "name": "Cursor Usage Tracker", "url": "https://cursorusage.url2.at/", "applicationCategory": "DeveloperApplication" } },
+    { "@type": "ListItem", "position": 4, "item": { "@type": "SoftwareApplication", "name": "Leetcode Notes", "url": "https://leetcodenotes.com/", "applicationCategory": "EducationalApplication" } }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- tools.url2.at · neobrutalist rebuild · plain HTML / CSS / JS -->
+<a class="skip" href="#products">Skip to products</a>
+
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-burst" viewBox="0 0 100 100"><polygon points="50.0,1.0 59.8,13.3 74.5,7.6 76.9,23.1 92.4,25.5 86.7,40.2 99.0,50.0 86.7,59.8 92.4,74.5 76.9,76.9 74.5,92.4 59.8,86.7 50.0,99.0 40.2,86.7 25.5,92.4 23.1,76.9 7.6,74.5 13.3,59.8 1.0,50.0 13.3,40.2 7.6,25.5 23.1,23.1 25.5,7.6 40.2,13.3"/></symbol>
+  <symbol id="i-star" viewBox="0 0 100 100"><polygon points="50.0,1.0 61.5,22.3 84.6,15.4 77.7,38.5 99.0,50.0 77.7,61.5 84.6,84.6 61.5,77.7 50.0,99.0 38.5,77.7 15.4,84.6 22.3,61.5 1.0,50.0 22.3,38.5 15.4,15.4 38.5,22.3"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 100 100"><path d="M50 2 C54 36 64 46 98 50 C64 54 54 64 50 98 C46 64 36 54 2 50 C36 46 46 36 50 2 Z"/></symbol>
+  <symbol id="i-out" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v15M5 12l7 7 7-7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24"><path d="M4 12h15M12 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12.5 5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="square"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M16 4H4v12" fill="none" stroke="currentColor" stroke-width="2.2"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.6 4.6l2.1 2.1M17.3 17.3l2.1 2.1M4.6 19.4l2.1-2.1M17.3 6.7l2.1-2.1" stroke="currentColor" stroke-width="2.2"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M8.5 10.5V7.5a3.5 3.5 0 0 1 7 0v3" fill="none" stroke="currentColor" stroke-width="2.2"/></symbol>
+  <symbol id="i-puzzle" viewBox="0 0 24 24"><path d="M10 3.5a2 2 0 0 1 4 0V6h4v4h-1.5a2 2 0 0 0 0 4H18v5h-5v-1.5a2 2 0 0 0-4 0V19H4v-5h1.5a2 2 0 0 0 0-4H4V6h6Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 0 0-14.3-4.9L4 8M4 4v4h4M4 13a8 8 0 0 0 14.3 4.9L20 16M20 20v-4h-4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"/></symbol>
+  <symbol id="i-sound" viewBox="0 0 24 24"><path d="M4 9.5h4l5-4v13l-5-4H4Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M16.5 9a4 4 0 0 1 0 6M19 6.5a7.5 7.5 0 0 1 0 11" fill="none" stroke="currentColor" stroke-width="2.2"/></symbol>
+  <symbol id="i-chrome" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="3.8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 8.2h8.6M8.7 13.9 4.4 6.5M15.3 13.9l-4.3 7.5" stroke="currentColor" stroke-width="2"/></symbol>
+</svg>
+
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a class="brand" href="https://tools.url2.at/" aria-label="tools.url2.at home">
+      <span class="brand__box">tools</span><span class="brand__rest">.url2.at</span>
+    </a>
+    <nav class="nav__links" aria-label="Main">
+      <a href="#products">Products</a>
+      <a href="#demos">Live demos</a>
+      <a href="#api">Public APIs</a>
+    </nav>
+    <div class="nav__actions">
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme">
+        <svg class="i-theme-sun" width="20" height="20" aria-hidden="true"><use href="#i-sun"/></svg>
+        <svg class="i-theme-moon" width="20" height="20" aria-hidden="true"><use href="#i-moon"/></svg>
+      </button>
+      <a class="btn btn--sm btn--words" href="https://akhil.url2.at/" target="_blank" rel="noopener noreferrer">About me <svg width="16" height="16" aria-hidden="true"><use href="#i-out"/></svg></a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- ============ HERO ============ -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero__grid">
+      <div class="hero__copy">
+        <p class="sticker sticker--tilt">Built with love <span aria-hidden="true">♥</span></p>
+        <h1 id="hero-title" class="hero__title">
+          <span class="line">Every app</span>
+          <span class="line">I <mark class="hl hl--words">ship.</mark></span>
+          <span class="line">One <mark class="hl hl--url">directory.</mark></span>
+        </h1>
+        <p class="hero__lead">Web apps, Chrome extensions and public APIs, all live on the url2.at ecosystem. Browse them, filter them, and try every one of them right on this page.</p>
+        <div class="hero__ctas">
+          <a class="btn btn--lg btn--ink" href="#demos">Try the live demos <svg width="18" height="18" aria-hidden="true"><use href="#i-down"/></svg></a>
+          <a class="btn btn--lg" href="#products">Browse all products</a>
+        </div>
+        <dl class="stats">
+          <div class="stat"><dt>Chrome Web Store users</dt><dd id="stat-users">256</dd></div>
+          <div class="stat"><dt>Live products</dt><dd>4</dd></div>
+          <div class="stat"><dt>Ways to use them</dt><dd>3</dd></div>
+        </dl>
+      </div>
+
+      <div class="board" aria-label="Jump to a live demo">
+        <svg class="board__burst" viewBox="0 0 100 100" aria-hidden="true"><use href="#i-burst"/></svg>
+        <span class="board__burst-label" aria-hidden="true">4 live<br>demos</span>
+        <svg class="board__spark" viewBox="0 0 100 100" aria-hidden="true"><use href="#i-spark"/></svg>
+        <a class="tile tile--words" href="#demo-words">
+          <img src="img/words.png" alt="" width="56" height="56">
+          <span class="tile__name">Word of the Day</span>
+          <span class="tile__meta">Vocabulary</span>
+        </a>
+        <a class="tile tile--url" href="#demo-url">
+          <img src="img/url-shortener.png" alt="" width="56" height="56">
+          <span class="tile__name">url2.at</span>
+          <span class="tile__meta">Short links</span>
+        </a>
+        <a class="tile tile--cursor" href="#demo-cursor">
+          <img src="img/cursor-usage.png" alt="" width="56" height="56">
+          <span class="tile__name">Cursor Usage</span>
+          <span class="tile__meta">Usage tracker</span>
+        </a>
+        <a class="tile tile--notes" href="#demo-notes">
+          <img src="img/leetcode-notes.png" alt="" width="56" height="56">
+          <span class="tile__name">Leetcode Notes</span>
+          <span class="tile__meta">Interview prep</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TICKER ============ -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <div class="ticker__group">
+        <span>Word of the Day</span><svg class="tk tk--words"><use href="#i-star"/></svg>
+        <span>url2.at</span><svg class="tk tk--url"><use href="#i-star"/></svg>
+        <span>Cursor Usage</span><svg class="tk tk--cursor"><use href="#i-star"/></svg>
+        <span>Leetcode Notes</span><svg class="tk tk--notes"><use href="#i-star"/></svg>
+        <span>Chrome Extension</span><svg class="tk tk--words"><use href="#i-spark"/></svg>
+        <span>Web App</span><svg class="tk tk--url"><use href="#i-spark"/></svg>
+        <span>Public API</span><svg class="tk tk--cursor"><use href="#i-spark"/></svg>
+      </div>
+      <div class="ticker__group">
+        <span>Word of the Day</span><svg class="tk tk--words"><use href="#i-star"/></svg>
+        <span>url2.at</span><svg class="tk tk--url"><use href="#i-star"/></svg>
+        <span>Cursor Usage</span><svg class="tk tk--cursor"><use href="#i-star"/></svg>
+        <span>Leetcode Notes</span><svg class="tk tk--notes"><use href="#i-star"/></svg>
+        <span>Chrome Extension</span><svg class="tk tk--words"><use href="#i-spark"/></svg>
+        <span>Web App</span><svg class="tk tk--url"><use href="#i-spark"/></svg>
+        <span>Public API</span><svg class="tk tk--cursor"><use href="#i-spark"/></svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ PRODUCTS ============ -->
+  <section class="products" id="products" aria-labelledby="products-title">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">The directory</p>
+          <h2 id="products-title" class="h2">All live products</h2>
+          <p class="section-head__sub">4 tools across learning, productivity and infrastructure. Pick a category or view everything.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Filter products by category">
+          <button type="button" class="filter" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="filter" data-filter="chrome-extension" aria-pressed="false">Chrome Extension</button>
+          <button type="button" class="filter" data-filter="web-app" aria-pressed="false">Web App</button>
+          <button type="button" class="filter" data-filter="public-api" aria-pressed="false">Public API</button>
+        </div>
+      </div>
+      <p class="filter-count" id="filter-count" aria-live="polite">Showing all 4 products</p>
+
+      <div class="grid" role="list">
+        <article class="product product--words" role="listitem" data-tags="chrome-extension web-app public-api">
+          <div class="product__head">
+            <img class="product__logo" src="img/words.png" alt="" width="56" height="56">
+            <div class="product__title">
+              <h3>Word of the Day</h3>
+              <a class="product__domain" href="https://words.url2.at/" target="_blank" rel="noopener noreferrer">words.url2.at</a>
+            </div>
+            <span class="users" data-users="203"><strong>203</strong> users</span>
+          </div>
+          <div class="product__body">
+            <p>Vocabulary and dictionary experience powered by our words API: definitions, parts of speech, examples and daily learning flows.</p>
+            <ul class="chips" aria-label="Categories"><li>Chrome Extension</li><li>Web App</li><li>Public API</li></ul>
+            <ul class="checks">
+              <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Random words and rich meanings</li>
+              <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Usage examples</li>
+              <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Track your learning history</li>
+            </ul>
+          </div>
+          <div class="product__foot">
+            <a class="btn btn--sm btn--ink" href="https://words.url2.at/" target="_blank" rel="noopener noreferrer">Web App <svg width="15" height="15" aria-hidden="true"><use href="#i-out"/></svg></a>
+            <a class="btn btn--sm" href="https://chromewebstore.google.com/detail/aapaohhhhloamdbfpmlgiglhbplimpgb?utm_source=item-share-cb" target="_blank" rel="noopener noreferrer">Extension <svg width="15" height="15" aria-hidden="true"><use href="#i-out"/></svg></a>
+            <a class="demo-link" href="#demo-words">Try it here <svg width="15" height="15" aria-hidden="true"><use href="#i-down"/></svg></a>
+          </div>
+        </article>
+
+        <article class="product product--url" role="listitem" data-tags="web-app chrome-extension public-api">
+          <div class="product__head">
+            <img class="product__logo" src="img/url-shortener.png" alt="" width="56" height="56">
+            <div class="product__title">
+              <h3>URL Shortener</h3>
+              <a class="product__domain" href="https://url2.at/" target="_blank" rel="noopener noreferrer">url2.at</a>
+            </div>
+            <span class="users" data-users="18"><strong>18</strong> users</span>
+          </div>
+          <div class="product__body">
+            <p>Shorten long URLs into compact links you can share. Includes REST endpoints to create and list mappings.</p>
+            <ul class="chips" aria-label="Categories"><li>Web App</li><li>Chrome Extension</li><li>Public API</li></ul>
+            <ul class="checks">
+              <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Unlimited URL shortening</li>
+              <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Manage your URLs</li>
+            </ul>
+          </div>
+          <div class="product__foot">
+            <a class="btn btn--sm btn--ink" href="https://url2.at/" target="_blank" rel="noopener noreferrer">Web App <svg width="15" height="15" aria-hidden="true"><use href="#i-out"/></svg></a>
+            <a class="btn btn--sm" href="https://chromewebstore.google.com/detail/mehidjmkjhemnojadgfbpljodafilolb?utm_source=item-share-cb" target="_blank" rel="noopener noreferrer">Extension <svg width="15" height="15" aria-hidden="true"><use href="#i-out"/></svg></a>
+            <a class="demo-link" href="#demo-url">Try it here <svg width="15" height="15" aria-hidden="true"><use href="#i-down"/></svg></a>
+          </div>
+        </article>
+
+        <article class="product product--cursor" role="listitem" data-tags="chrome-extension">
+          <div class="product__head">
+            <img class="product__logo" src="img/cursor-usage.png" alt="" width="56" height="56">
+            <div class="product__title">
+              <h3>Cursor Usage Tracker</h3>
+              <a class="product__domain" href="https://cursorusage.url2.at/" target="_blank" rel="noopener noreferrer">cursorusage.url2.at</a>
+            </div>
+            <span class="users" data-users="20"><strong>20</strong> users</span>
+          </div>
+          <div class="product__body">
+            <p>Track your Cursor usage at the click of a button: included limit, model breakdowns, billing reset and on-demand spend.</p>
+            <ul class="chips" aria-label="Categories"><li>Chrome Extension</li></ul>
+            <ul class="checks">
+              <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Track your current usage</li>
+              <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Check the breakdown of your usage</li>
+            </ul>
+          </div>
+          <div class="product__foot">
+            <a class="btn btn--sm btn--ink" href="https://cursorusage.url2.at/" target="_blank" rel="noopener noreferrer">Website <svg width="15" height="15" aria-hidden="true"><use href="#i-out"/></svg></a>
+            <a class="btn btn--sm" href="https://chromewebstore.google.com/detail/mkoaccpgncendaeaahmghanijlfiogpo?utm_source=item-share-cb" target="_blank" rel="noopener noreferrer">Extension <svg width="15" height="15" aria-hidden="true"><use href="#i-out"/></svg></a>
+            <a class="demo-link" href="#demo-cursor">Try it here <svg width="15" height="15" aria-hidden="true"><use href="#i-down"/></svg></a>
+          </div>
+        </article>
+
+        <article class="product product--notes" role="listitem" data-tags="web-app chrome-extension">
+          <div class="product__head">
+            <img class="product__logo" src="img/leetcode-notes.png" alt="" width="56" height="56">
+            <div class="product__title">
+              <h3>Leetcode Notes</h3>
+              <a class="product__domain" href="https://leetcodenotes.com/" target="_blank" rel="noopener noreferrer">leetcodenotes.com</a>
+            </div>
+            <span class="users" data-users="15"><strong>15</strong> users</span>
+          </div>
+          <div class="product__body">
+            <p>Note-taking for coding interviews: capture approaches, complexity, tags and review queues, built for serious LeetCode practice.</p>
+            <ul class="chips" aria-label="Categories"><li>Web App</li><li>Chrome Extension</li></ul>
+            <ul class="checks">
+              <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Email sign-in</li>
+              <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Browse, review and export notes</li>
+              <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Dark and light UI</li>
+            </ul>
+          </div>
+          <div class="product__foot">
+            <a class="btn btn--sm btn--ink" href="https://leetcodenotes.com/" target="_blank" rel="noopener noreferrer">Web App <svg width="15" height="15" aria-hidden="true"><use href="#i-out"/></svg></a>
+            <a class="btn btn--sm" href="https://chromewebstore.google.com/detail/oegmcbmfhcaefkplnofcajidciincllp?utm_source=item-share-cb" target="_blank" rel="noopener noreferrer">Extension <svg width="15" height="15" aria-hidden="true"><use href="#i-out"/></svg></a>
+            <a class="demo-link" href="#demo-notes">Try it here <svg width="15" height="15" aria-hidden="true"><use href="#i-down"/></svg></a>
+          </div>
+        </article>
+      </div>
+      <p class="empty" id="filter-empty" hidden>No products in this category yet.</p>
+    </div>
+  </section>
+
+  <!-- ============ DEMOS INTRO ============ -->
+  <section class="demos-intro" id="demos" aria-labelledby="demos-title">
+    <div class="wrap demos-intro__inner">
+      <div>
+        <p class="eyebrow">Live demos</p>
+        <h2 id="demos-title" class="h2">Don't read about it. <mark class="hl hl--cursor">Click it.</mark></h2>
+        <p class="section-head__sub">Each tool's real interface, rebuilt to run on this page. Word of the Day pulls live words from its public API and url2.at makes real short links.</p>
+      </div>
+      <nav class="jump" aria-label="Jump to a demo">
+        <a class="jump__pill jump__pill--words" href="#demo-words">Word of the Day</a>
+        <a class="jump__pill jump__pill--url" href="#demo-url">url2.at</a>
+        <a class="jump__pill jump__pill--cursor" href="#demo-cursor">Cursor Usage</a>
+        <a class="jump__pill jump__pill--notes" href="#demo-notes">Leetcode Notes</a>
+      </nav>
+    </div>
+  </section>
+
+  <!-- ============ DEMO 1 · WORD OF THE DAY ============ -->
+  <section class="band band--words" id="demo-words" aria-labelledby="words-title">
+    <div class="wrap band__inner">
+      <div class="band__copy">
+        <p class="kicker"><img src="img/words.png" alt="" width="28" height="28">Word of the Day · words.url2.at</p>
+        <h2 id="words-title" class="h2">A bigger vocabulary, one word at a time.</h2>
+        <p class="band__lead">Get a new English word every day with its definition and part of speech. It takes 30 seconds, on the website or in every new Chrome tab.</p>
+        <ol class="steps">
+          <li><span class="steps__n">1</span><div><strong>Create a free account</strong><span>Sign up with your email in seconds. No credit card.</span></div></li>
+          <li><span class="steps__n">2</span><div><strong>Get your word every day</strong><span>Open the site or a new tab and a handpicked word is waiting.</span></div></li>
+          <li><span class="steps__n">3</span><div><strong>Watch your vocabulary grow</strong><span>Your history builds automatically. Review past words any time.</span></div></li>
+        </ol>
+        <div class="band__ctas">
+          <a class="btn btn--ink" href="https://words.url2.at/" target="_blank" rel="noopener noreferrer">Start for free <svg width="16" height="16" aria-hidden="true"><use href="#i-out"/></svg></a>
+          <a class="btn" href="https://chromewebstore.google.com/detail/aapaohhhhloamdbfpmlgiglhbplimpgb?utm_source=item-share-cb" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" aria-hidden="true"><use href="#i-chrome"/></svg> Add to Chrome</a>
+        </div>
+      </div>
+
+      <div class="band__demo">
+        <div class="window" id="wotd">
+          <div class="window__bar">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="window__tab">New Tab</span>
+          </div>
+          <div class="window__url">
+            <span class="urlpill"><svg width="14" height="14" aria-hidden="true"><use href="#i-puzzle"/></svg>Word of the Day · new tab</span>
+          </div>
+          <div class="window__body wotd">
+            <div class="seg" role="tablist" aria-label="Word of the Day views">
+              <button type="button" class="seg__btn" role="tab" id="wotd-tab-today" aria-controls="wotd-today" aria-selected="true">Today</button>
+              <button type="button" class="seg__btn" role="tab" id="wotd-tab-history" aria-controls="wotd-history" aria-selected="false" tabindex="-1">History <span class="count" id="wotd-count">4</span></button>
+            </div>
+
+            <div class="wotd__panel" role="tabpanel" id="wotd-today" aria-labelledby="wotd-tab-today">
+              <article class="wordcard" id="wotd-card" aria-live="polite">
+                <p class="wordcard__label">Word of the Day</p>
+                <div class="wordcard__row">
+                  <p class="wordcard__word" id="wotd-word">serendipity</p>
+                  <button type="button" class="icon-btn icon-btn--sm" id="wotd-speak" aria-label="Hear the word">
+                    <svg width="18" height="18" aria-hidden="true"><use href="#i-sound"/></svg>
+                  </button>
+                </div>
+                <p class="wordcard__pos"><span class="pill" id="wotd-pos">noun</span></p>
+                <p class="wordcard__def" id="wotd-def">The occurrence of events by chance in a happy or beneficial way.</p>
+                <p class="wordcard__ex" id="wotd-ex">“A fortunate stroke of serendipity brought them together.”</p>
+                <ul class="wordcard__syn" id="wotd-syn" aria-label="Synonyms"><li>chance</li><li>fortune</li></ul>
+              </article>
+              <div class="wotd__actions">
+                <button type="button" class="btn btn--ink" id="wotd-next">Next word <svg width="16" height="16" aria-hidden="true"><use href="#i-right"/></svg></button>
+                <p class="source" id="wotd-source"><span class="dot dot--idle" aria-hidden="true"></span>Sample word · loading the live API</p>
+              </div>
+            </div>
+
+            <div class="wotd__panel" role="tabpanel" id="wotd-history" aria-labelledby="wotd-tab-history" hidden>
+              <ol class="history" id="wotd-history-list"></ol>
+              <p class="history__note">Signed in, every word you see is saved to your history and synced with the extension.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DEMO 2 · URL2.AT ============ -->
+  <section class="band band--url band--flip" id="demo-url" aria-labelledby="url-title">
+    <div class="wrap band__inner">
+      <div class="band__copy">
+        <p class="kicker"><img src="img/url-shortener.png" alt="" width="28" height="28">URL Shortener · url2.at</p>
+        <h2 id="url-title" class="h2">Long link in. url2.at link out.</h2>
+        <p class="band__lead">Paste any long URL and get a short one in the format <code>url2.at/your-code</code>. Sign in to manage every link from one dashboard, or shorten the tab you're on with the extension.</p>
+        <ol class="steps">
+          <li><span class="steps__n">1</span><div><strong>Paste your URL</strong><span>Any long link works, query strings and all.</span></div></li>
+          <li><span class="steps__n">2</span><div><strong>Get a url2.at link</strong><span>A short link like url2.at/abc12, ready to copy.</span></div></li>
+          <li><span class="steps__n">3</span><div><strong>Share and manage</strong><span>Keep your links organised in the dashboard.</span></div></li>
+        </ol>
+        <div class="band__ctas">
+          <a class="btn btn--ink" href="https://url2.at/" target="_blank" rel="noopener noreferrer">Open url2.at <svg width="16" height="16" aria-hidden="true"><use href="#i-out"/></svg></a>
+          <a class="btn" href="https://chromewebstore.google.com/detail/mehidjmkjhemnojadgfbpljodafilolb?utm_source=item-share-cb" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" aria-hidden="true"><use href="#i-chrome"/></svg> Add to Chrome</a>
+        </div>
+      </div>
+
+      <div class="band__demo">
+        <div class="seg seg--outside" role="tablist" aria-label="url2.at views">
+          <button type="button" class="seg__btn" role="tab" id="url-tab-web" aria-controls="url-web" aria-selected="true">Web app</button>
+          <button type="button" class="seg__btn" role="tab" id="url-tab-ext" aria-controls="url-ext" aria-selected="false" tabindex="-1">Chrome extension</button>
+        </div>
+
+        <div class="window" role="tabpanel" id="url-web" aria-labelledby="url-tab-web">
+          <div class="window__bar">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="window__tab">url2.at</span>
+          </div>
+          <div class="window__url">
+            <span class="urlpill"><svg width="14" height="14" aria-hidden="true"><use href="#i-lock"/></svg>url2.at</span>
+          </div>
+          <div class="window__body short">
+            <p class="short__title">Shorten links with <span>url2.at</span></p>
+            <form class="short__form" id="short-form" novalidate>
+              <label class="vh" for="short-input">Long URL to shorten</label>
+              <input id="short-input" name="longUrl" type="url" inputmode="url" autocomplete="url" spellcheck="false" placeholder="https://example.com/very-long-url..." value="https://www.neobrutalism.dev/docs/installation?utm_source=tools.url2.at&amp;utm_medium=demo">
+              <button class="btn btn--url" type="submit" id="short-submit">Shorten URL</button>
+            </form>
+            <p class="form-error" id="short-error" role="alert" hidden></p>
+            <div class="short__result" id="short-result" hidden>
+              <p class="short__result-label">Your short URL</p>
+              <div class="short__result-row">
+                <span class="short__link" id="short-link"></span>
+                <button type="button" class="btn btn--sm" id="short-copy"><svg width="15" height="15" aria-hidden="true"><use href="#i-copy"/></svg><span>Copy</span></button>
+              </div>
+              <p class="short__note" id="short-note"></p>
+            </div>
+            <div class="table-wrap">
+              <table class="links">
+                <caption>Your links</caption>
+                <thead><tr><th scope="col">Short link</th><th scope="col">Destination</th><th scope="col">Created</th></tr></thead>
+                <tbody id="links-body">
+                  <tr class="is-example"><td><span class="mono">url2.at/k3x9p</span> <span class="tag">example</span></td><td class="dest" title="https://docs.google.com/document/d/1Xr5b-quarterly-planning/edit">docs.google.com/document/d/1Xr5b-quarterly-planning/edit</td><td>Oct 14</td></tr>
+                  <tr class="is-example"><td><span class="mono">url2.at/m8q2w</span> <span class="tag">example</span></td><td class="dest" title="https://github.com/akhil-code/cursor-usage-webpage">github.com/akhil-code/cursor-usage-webpage</td><td>Oct 9</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="window" role="tabpanel" id="url-ext" aria-labelledby="url-tab-ext" hidden>
+          <div class="window__bar">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="window__tab">How we cut our build times in half</span>
+          </div>
+          <div class="window__url">
+            <span class="urlpill urlpill--long"><svg width="14" height="14" aria-hidden="true"><use href="#i-lock"/></svg><span id="ext-page-url">blog.example.com/2026/10/how-we-cut-our-build-times-in-half-with-incremental-caching</span></span>
+            <button type="button" class="ext-icon" id="url-ext-icon" aria-expanded="true" aria-controls="url-popup" aria-label="url2.at extension">
+              <img src="img/url-shortener.png" alt="" width="22" height="22">
+            </button>
+          </div>
+          <div class="window__body page">
+            <div class="page__skeleton" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="popup" id="url-popup">
+              <div class="popup__head"><img src="img/url-shortener.png" alt="" width="22" height="22"><strong>url2.at</strong></div>
+              <p class="popup__label">Short link for this tab</p>
+              <div class="short__result-row">
+                <span class="short__link" id="ext-link">url2.at/…</span>
+                <button type="button" class="btn btn--sm" id="ext-copy"><svg width="15" height="15" aria-hidden="true"><use href="#i-copy"/></svg><span>Copy</span></button>
+              </div>
+              <p class="popup__fine">Demo preview. In Chrome, one click shortens whatever tab you're on.</p>
+            </div>
+            <p class="page__hint" id="url-ext-hint" hidden>Click the url2.at icon in the toolbar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DEMO 3 · CURSOR USAGE ============ -->
+  <section class="band band--cursor" id="demo-cursor" aria-labelledby="cursor-title">
+    <div class="wrap band__inner">
+      <div class="band__copy">
+        <p class="kicker"><img src="img/cursor-usage.png" alt="" width="28" height="28">Cursor Usage Tracker · Chrome extension</p>
+        <h2 id="cursor-title" class="h2">Your Cursor AI usage, one click away.</h2>
+        <p class="band__lead">The included limit, Auto + Composer and API model breakdowns, billing-cycle reset and on-demand spend, right from your browser toolbar.</p>
+        <ul class="feature-list">
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Private by design: data goes only between your browser and cursor.com</li>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Zero configuration: no account, no API keys</li>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>About 211 KiB, no background scripts</li>
+        </ul>
+        <div class="sim">
+          <p class="sim__title">Simulate your billing cycle</p>
+          <div class="sim__row">
+            <label for="cu-range">Spend this cycle</label>
+            <output id="cu-range-out" for="cu-range">$32.10</output>
+          </div>
+          <input type="range" id="cu-range" min="0" max="70" step="0.1" value="32.1">
+          <label class="switch" for="cu-ondemand">
+            <input type="checkbox" id="cu-ondemand" role="switch">
+            <span class="switch__track" aria-hidden="true"><span class="switch__thumb"></span></span>
+            On-demand usage enabled
+          </label>
+        </div>
+        <div class="band__ctas">
+          <a class="btn btn--ink" href="https://chromewebstore.google.com/detail/mkoaccpgncendaeaahmghanijlfiogpo?utm_source=item-share-cb" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" aria-hidden="true"><use href="#i-chrome"/></svg> Add to Chrome, free</a>
+          <a class="btn" href="https://cursorusage.url2.at/" target="_blank" rel="noopener noreferrer">Visit website <svg width="16" height="16" aria-hidden="true"><use href="#i-out"/></svg></a>
+        </div>
+      </div>
+
+      <div class="band__demo">
+        <div class="window">
+          <div class="window__bar">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="window__tab">my-side-project</span>
+          </div>
+          <div class="window__url">
+            <span class="urlpill"><svg width="14" height="14" aria-hidden="true"><use href="#i-lock"/></svg>localhost:3000</span>
+            <button type="button" class="ext-icon" id="cu-icon" aria-expanded="true" aria-controls="cu-popup" aria-label="Cursor Usage Tracker extension">
+              <img src="img/cursor-usage.png" alt="" width="22" height="22">
+            </button>
+          </div>
+          <div class="window__body page page--code">
+            <div class="page__skeleton page__skeleton--code" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="popup popup--cursor" id="cu-popup">
+              <div class="popup__head">
+                <img src="img/cursor-usage.png" alt="" width="22" height="22">
+                <strong>Cursor Usage</strong>
+                <span class="plan">Pro</span>
+              </div>
+              <div class="cu__total" id="cu-total">
+                <p class="cu__label">Total usage</p>
+                <p class="cu__pct"><span id="cu-pct">64</span><small>%</small></p>
+                <p class="cu__sub" id="cu-sub">of included limit</p>
+                <div class="meter" role="meter" aria-label="Included limit used" aria-valuemin="0" aria-valuemax="100" aria-valuenow="64" id="cu-meter"><span id="cu-meter-fill" style="width:64%"></span></div>
+              </div>
+              <dl class="cu__pair">
+                <div><dt>Used</dt><dd><span id="cu-used">$32.10</span> <small>of $50.00</small></dd></div>
+                <div><dt>Resets in</dt><dd><span id="cu-reset-days">11d</span> <small id="cu-reset-date">on Jun 1</small></dd></div>
+              </dl>
+              <div class="cu__break">
+                <p class="cu__label">Breakdown</p>
+                <div class="cu__brow">
+                  <span>Auto + Composer</span><span class="mono" id="cu-auto">$13.48</span>
+                </div>
+                <div class="bar bar--auto" aria-hidden="true"><span id="cu-auto-bar" style="width:42%"></span></div>
+                <div class="cu__brow">
+                  <span>API + frontier models</span><span class="mono" id="cu-api">$18.62</span>
+                </div>
+                <div class="bar bar--api" aria-hidden="true"><span class="bar__m1" id="cu-b1" style="width:32%"></span><span class="bar__m2" id="cu-b2" style="width:17%"></span><span class="bar__m3" id="cu-b3" style="width:9%"></span></div>
+                <ul class="cu__models" id="cu-models">
+                  <li><span class="sw sw--1" aria-hidden="true"></span>Claude<span class="mono" id="cu-m1">$10.24</span></li>
+                  <li><span class="sw sw--2" aria-hidden="true"></span>GPT<span class="mono" id="cu-m2">$5.59</span></li>
+                  <li><span class="sw sw--3" aria-hidden="true"></span>Gemini<span class="mono" id="cu-m3">$2.79</span></li>
+                </ul>
+              </div>
+              <div class="cu__od" id="cu-od">
+                <span>On-demand</span><span class="mono" id="cu-od-val">Off</span>
+              </div>
+              <div class="popup__foot">
+                <span id="cu-updated">Updated just now</span>
+                <button type="button" class="icon-btn icon-btn--sm" id="cu-refresh" aria-label="Refresh usage"><svg width="16" height="16" aria-hidden="true"><use href="#i-refresh"/></svg></button>
+              </div>
+            </div>
+            <p class="page__hint" id="cu-hint" hidden>Click the Cursor Usage icon in the toolbar.</p>
+          </div>
+        </div>
+        <p class="demo-note">Example numbers. The real popup reads your own usage from cursor.com while it's open.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DEMO 4 · LEETCODE NOTES ============ -->
+  <section class="band band--notes band--flip" id="demo-notes" aria-labelledby="notes-title">
+    <div class="wrap band__inner">
+      <div class="band__copy">
+        <p class="kicker"><img src="img/leetcode-notes.png" alt="" width="28" height="28">Leetcode Notes · leetcodenotes.com</p>
+        <h2 id="notes-title" class="h2">You've solved hundreds of problems. Could you solve them again?</h2>
+        <p class="band__lead">Leetcode Notes sits beside every problem and captures it in the background. Write down the idea, the approach and the mistakes, then get them back before the interview.</p>
+        <div class="steptabs" role="tablist" aria-label="Leetcode Notes steps">
+          <button type="button" class="steptab" role="tab" id="ln-tab-1" aria-controls="ln-step-1" aria-selected="true">
+            <span class="steptab__n">1</span>
+            <span class="steptab__text"><strong>Take notes while you solve</strong><span>Chrome extension · saves as you type</span></span>
+          </button>
+          <button type="button" class="steptab" role="tab" id="ln-tab-2" aria-controls="ln-step-2" aria-selected="false" tabindex="-1">
+            <span class="steptab__n">2</span>
+            <span class="steptab__text"><strong>Review before the interview</strong><span>Web app · recall, reveal, rate</span></span>
+          </button>
+        </div>
+        <div class="band__ctas">
+          <a class="btn btn--ink" href="https://leetcodenotes.com/" target="_blank" rel="noopener noreferrer">Get started <svg width="16" height="16" aria-hidden="true"><use href="#i-out"/></svg></a>
+          <a class="btn" href="https://chromewebstore.google.com/detail/oegmcbmfhcaefkplnofcajidciincllp?utm_source=item-share-cb" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" aria-hidden="true"><use href="#i-chrome"/></svg> Add the extension</a>
+        </div>
+      </div>
+
+      <div class="band__demo">
+        <!-- Step 1: extension sidebar beside a problem -->
+        <div class="window" role="tabpanel" id="ln-step-1" aria-labelledby="ln-tab-1">
+          <div class="window__bar">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="window__tab">15. 3Sum</span>
+          </div>
+          <div class="window__url">
+            <span class="urlpill"><svg width="14" height="14" aria-hidden="true"><use href="#i-lock"/></svg>leetcode.com/problems/3sum/</span>
+            <span class="ext-icon ext-icon--on" aria-hidden="true"><img src="img/leetcode-notes.png" alt="" width="22" height="22"></span>
+          </div>
+          <div class="window__body solve">
+            <div class="solve__problem" aria-hidden="true">
+              <p class="solve__title">15. 3Sum <span class="diff diff--medium">Medium</span></p>
+              <div class="page__skeleton page__skeleton--short"><i></i><i></i><i></i><i></i></div>
+              <pre class="code code--editor"><code id="ln-editor-code"></code></pre>
+            </div>
+            <aside class="sidebar" aria-label="Leetcode Notes sidebar">
+              <div class="sidebar__head">
+                <img src="img/leetcode-notes.png" alt="" width="22" height="22">
+                <strong>Leetcode Notes</strong>
+                <span class="save" id="ln-save" aria-live="polite"><span class="dot dot--ok" aria-hidden="true"></span>Saved</span>
+              </div>
+              <div class="capture">
+                <p class="capture__title">15. 3Sum <span class="diff diff--medium">Medium</span></p>
+                <ul class="capture__rows">
+                  <li><svg width="14" height="14" aria-hidden="true"><use href="#i-check"/></svg>Problem, difficulty and link<span>just now</span></li>
+                  <li><svg width="14" height="14" aria-hidden="true"><use href="#i-check"/></svg>Your code<span>Python3 · 19 lines</span></li>
+                  <li><svg width="14" height="14" aria-hidden="true"><use href="#i-check"/></svg>Saved in the background<span>auto</span></li>
+                </ul>
+              </div>
+              <div class="field">
+                <label for="ln-approach">Key insight &amp; approach</label>
+                <textarea id="ln-approach" rows="4">Sort first, fix one number, and the rest is Two Sum II with two pointers. Move l up when the sum is small, r down when it is big.</textarea>
+              </div>
+              <div class="field">
+                <label for="ln-mistakes">Mistakes made</label>
+                <textarea id="ln-mistakes" rows="3">Forgot to skip duplicates for i and after a match, so the output had repeated triplets.</textarea>
+              </div>
+              <div class="field field--row">
+                <label for="ln-folder">Folder</label>
+                <select id="ln-folder">
+                  <option>Two Pointers</option>
+                  <option>Arrays &amp; Strings</option>
+                  <option>Sorting</option>
+                  <option>Default</option>
+                </select>
+              </div>
+              <ul class="chips chips--sm" aria-label="Tags"><li>array</li><li>two pointers</li><li>sorting</li></ul>
+              <label class="check" for="ln-review"><input type="checkbox" id="ln-review" checked> On my review plan</label>
+            </aside>
+          </div>
+        </div>
+
+        <!-- Step 2: web app review -->
+        <div class="window" role="tabpanel" id="ln-step-2" aria-labelledby="ln-tab-2" hidden>
+          <div class="window__bar">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="window__tab">Review · Leetcode Notes</span>
+          </div>
+          <div class="window__url">
+            <span class="urlpill"><svg width="14" height="14" aria-hidden="true"><use href="#i-lock"/></svg>leetcodenotes.com/review</span>
+          </div>
+          <div class="window__body review">
+            <aside class="queue" aria-label="Review queue">
+              <p class="queue__title">Due today <span class="count" id="ln-due">5</span></p>
+              <ol class="queue__list" id="ln-queue"></ol>
+              <div class="split" aria-label="Notes by difficulty">
+                <p class="queue__title">231 notes</p>
+                <div class="split__bar" aria-hidden="true"><span class="split__e" style="width:35%"></span><span class="split__m" style="width:58%"></span><span class="split__h" style="width:7%"></span></div>
+                <p class="split__legend"><span>Easy 35%</span><span>Med 58%</span><span>Hard 7%</span></p>
+              </div>
+            </aside>
+            <div class="rcard" id="ln-card" aria-live="polite"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PUBLIC APIS ============ -->
+  <section class="api" id="api" aria-labelledby="api-title">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">For builders</p>
+          <h2 id="api-title" class="h2">Public APIs, no key needed.</h2>
+          <p class="section-head__sub">The same endpoints the extensions use. CORS is open, so you can call them from any page.</p>
+        </div>
+      </div>
+      <div class="api__grid">
+        <article class="snippet">
+          <div class="snippet__head">
+            <span class="method method--get">GET</span>
+            <span class="mono">words.url2.at/api/words</span>
+            <button type="button" class="btn btn--sm snippet__copy" data-copy="snip-words" aria-label="Copy the Words API command"><svg width="15" height="15" aria-hidden="true"><use href="#i-copy"/></svg><span>Copy</span></button>
+          </div>
+          <p class="snippet__desc">A random dictionary word with its meanings.</p>
+          <pre class="code"><code id="snip-words">curl https://words.url2.at/api/words</code></pre>
+          <pre class="code code--out"><code>{
+  "_id": "ephemeral",
+  "meanings": [{
+    "definition": "Lasting for a very short time.",
+    "speech_part": "adjective",
+    "example": "Fashion is ephemeral; style is eternal."
+  }]
+}</code></pre>
+        </article>
+        <article class="snippet">
+          <div class="snippet__head">
+            <span class="method method--post">POST</span>
+            <span class="mono">url2.at/api/tinyurl</span>
+            <button type="button" class="btn btn--sm snippet__copy" data-copy="snip-url" aria-label="Copy the URL Shortener API command"><svg width="15" height="15" aria-hidden="true"><use href="#i-copy"/></svg><span>Copy</span></button>
+          </div>
+          <p class="snippet__desc">Shorten a link. Add a Bearer token to own it in your dashboard.</p>
+          <pre class="code"><code id="snip-url">curl -X POST https://url2.at/api/tinyurl \
+  -H "Content-Type: application/json" \
+  -d '{"longUrl":"https://example.com/a/very/long/path"}'</code></pre>
+          <pre class="code code--out"><code>{
+  "code": "abc12",
+  "longUrl": "https://example.com/a/very/long/path",
+  "tinyUrl": "https://url2.at/abc12"
+}</code></pre>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta" aria-labelledby="cta-title">
+    <div class="wrap">
+      <div class="cta__box">
+        <svg class="cta__star" viewBox="0 0 100 100" aria-hidden="true"><use href="#i-star"/></svg>
+        <h2 id="cta-title" class="h2">Pick a tool. You're 30 seconds from using it.</h2>
+        <div class="cta__row">
+          <a class="btn btn--words" href="https://words.url2.at/" target="_blank" rel="noopener noreferrer">Word of the Day</a>
+          <a class="btn btn--url" href="https://url2.at/" target="_blank" rel="noopener noreferrer">url2.at</a>
+          <a class="btn btn--cursor" href="https://cursorusage.url2.at/" target="_blank" rel="noopener noreferrer">Cursor Usage</a>
+          <a class="btn btn--notes" href="https://leetcodenotes.com/" target="_blank" rel="noopener noreferrer">Leetcode Notes</a>
+        </div>
+        <p class="cta__about">Made by Akhil. More about me and what I'm building at <a href="https://akhil.url2.at/" target="_blank" rel="noopener noreferrer">akhil.url2.at</a>.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div>
+      <a class="brand" href="https://tools.url2.at/"><span class="brand__box">tools</span><span class="brand__rest">.url2.at</span></a>
+      <p class="footer__tag">Built with love <span aria-hidden="true">♥</span> · the map to everything on url2.at</p>
+    </div>
+    <nav class="footer__links" aria-label="Footer">
+      <a href="#products">All products</a>
+      <a href="https://words.url2.at/" target="_blank" rel="noopener noreferrer">words.url2.at</a>
+      <a href="https://url2.at/" target="_blank" rel="noopener noreferrer">url2.at</a>
+      <a href="https://cursorusage.url2.at/" target="_blank" rel="noopener noreferrer">cursorusage.url2.at</a>
+      <a href="https://leetcodenotes.com/" target="_blank" rel="noopener noreferrer">leetcodenotes.com</a>
+      <a href="https://akhil.url2.at/" target="_blank" rel="noopener noreferrer">akhil.url2.at</a>
+    </nav>
+    <p class="footer__legal">© <span id="year">2026</span> url2.at. Independent projects, not affiliated with or endorsed by LeetCode or Cursor.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
